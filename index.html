@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CinnaBlog</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="brand">
+      <img src="assets/logo.png" alt="Cinnamonroll logo" class="logo">
+    </div>
+
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#personagem">characters</a>
+      <a href="./sobre-mim.html">About me</a>
+      <a href="#contato">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h2>Bem-vindo ao CinnaBlog!</h2>
+        <p>
+          Um cantinho especial criado para compartilhar curiosidades,
+          histórias e conteúdos inspirados no adorável Cinnamonroll.
+        </p>
+
+        <div class="buttons">
+          <button class="btn"><a href="./pages/cinnamonroll-info.html">Ler mais</a></button>
+          <button class="btn"><a href="https://shopee.com.br/list/Hello%20Kitty" target="_blank">Comprar</a></button>
+        </div>
+      </div>
+
+      <img src="./assets/hero-image.png" alt="Cinnamonroll avião" class="hero-img">
+    </section>
+    <section class="carrossel-personagens" id="personagem">
+      <div class="content-grid">
+
+        <h2 class="titulo-personagens">Amigos do Cinnamoroll</h2>
+
+        <div class="personagens-card">
+
+          <div class="content-box"
+            data-fala="Milk é calmo, gentil e sempre pensa no bem-estar dos amigos. Ele traz paz e conforto para o grupo 🤍">
+            <div class="balao"></div>
+            <img src="./assets/milk-hero.png" alt="Milk" class="img-card">
+            <span class="nome-personagem">Milk</span>
+          </div>
+
+          <div class="content-box"
+            data-fala="Cappuccino é inteligente, responsável e adora organizar tudo. Sempre ajuda quando alguém precisa ☕">
+            <div class="balao"></div>
+            <img src="./assets/Cappuccino-hero.png" alt="Cappuccino" class="img-card-cappuccino">
+            <span class="nome-personagem">Cappuccino</span>
+          </div>
+
+          <div class="content-box"
+            data-fala="Mocha é doce, sensível e um pouco tímida. Ela ama flores e demonstra carinho em pequenos gestos 🌸">
+            <div class="balao"></div>
+            <img src="./assets/Molcha-hero.png" alt="Mocha" class="img-card">
+            <span class="nome-personagem">Mocha</span>
+          </div>
+
+          <div class="content-box"
+            data-fala="Cinnamoroll é alegre, curioso e adora aventuras. Com suas orelhas grandes, ele consegue voar entre as nuvens ☁️">
+            <div class="balao"></div>
+            <img src="./assets/cinnamon_object.png" alt="Cinnamoroll" class="img-card">
+            <span class="nome-personagem">Cinnamoroll</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section class="contato" id="contato">
+      <form class="form-contato" id="formContato">
+        <h2>Entre em contato</h2>
+
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" placeholder="Digite seu nome">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+        <label for="mensagem">Escreva a mensagem</label>
+        <textarea id="mensagem"></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer-content">
+
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="Cinnamonroll logo">
+        <p>CinnaBlog © 2026</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Menu</h3>
+        <a href="#">Home</a>
+        <a href="#">Posts</a>
+        <a href="#">About us</a>
+        <a href="#contato">Contact</a>
+      </div>
+
+      <div class="footer-about">
+        <h3>Sobre</h3>
+        <p>
+          Blog criado para fins educacionais,
+          inspirado no personagem Cinnamonroll.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
