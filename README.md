@@ -1,26 +1,26 @@
 # CinnaBlog 🍥
 
-Projeto desenvolvido como **Avaliação Final da disciplina de Fundamentos de Desenvolvimento Web**  
-Curso: Sistemas para Internet
+Project developed as the **Final Assessment** for the course *Fundamentals of Web Development*  
+Degree program: **Internet Systems (Sistemas para Internet)**
 
 ---
 
-## 📌 Sobre o projeto
+## 📌 About the Project
 
-O **CinnaBlog** é um blog estático com tema inspirado no personagem Cinnamonroll, criado com o objetivo de praticar os fundamentos de desenvolvimento web.
+**CinnaBlog** is a static blog inspired by the Cinnamonroll character, created with the goal of practicing core web development fundamentals.
 
-O projeto utiliza apenas **HTML, CSS e JavaScript puro**, sem o uso de frameworks ou bibliotecas externas, conforme os requisitos da atividade avaliativa.
-
----
-
-## 🛠️ Tecnologias utilizadas
-
-- HTML5 (estrutura semântica)
-- CSS3 (Flexbox, responsividade e estilização)
-- JavaScript (manipulação básica do DOM e eventos)
+The project was built using only **HTML, CSS, and vanilla JavaScript**, without any frameworks or external libraries, in accordance with the assessment requirements.
 
 ---
 
-## 🔗 Acesso ao projeto
+## 🛠️ Technologies Used
 
-- [Acessar o CinnaBlog](https://sthefaniadev.github.io/CinnaBlog-Projeto-Academico-de-Desenvolvimento-Web/)
+- **HTML5** – semantic structure  
+- **CSS3** – Flexbox, responsiveness, and styling  
+- **JavaScript** – basic DOM manipulation and event handling  
+
+---
+
+## 🔗 Live Demo
+
+- [Visit CinnaBlog](https://sthefaniadev.github.io/CinnaBlog-Projeto-Academico-de-Desenvolvimento-Web/)
