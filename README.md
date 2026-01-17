@@ -24,3 +24,5 @@ The project was built using only **HTML, CSS, and vanilla JavaScript**, without 
 ## 🔗 Live Demo
 
 - [Visit CinnaBlog](https://sthefaniadev.github.io/CinnaBlog-Projeto-Academico-de-Desenvolvimento-Web/)
+
+![CinnaBlog Preview](assets/logo.png)
